@@ -52,3 +52,14 @@ It fulfills all requirements for an A-grade project: multiple pages, dynamic CRU
 TODO: Replace the wireframe below with you own design.
 
 ![wireframe](my-wireframe.png)
+
+
+## Current Progress (Check-In 1)
+
+- Basic project structure created (index.html, style.css, main.js)
+- Landing page scaffolding completed
+- Initial form added for submitting grocery items
+- Placeholder JavaScript events added
+- CSS structure + styling started will add more later on!
+- AWS backend planned but not yet implemented
+Overall good start to project, need to make sure everything is working by check point 2. But for now its OK

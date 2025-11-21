@@ -1,18 +1,45 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Hello World!</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grocery List App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>HTML Rocks!</h1>
-  <img src="img/compile.jpeg">
-  <script type="module" src="js/main.js"></script>
-</body>
 
+<header>
+  <h1>Grocery List App</h1>
+  <p>Add, view, and manage your groceries</p>
+</header>
+
+<section class="form-section">
+  <h2>Add an Item</h2>
+
+  <form id="add-item-form">
+    <label for="item-name">Item Name</label>
+    <input id="item-name" type="text" placeholder="e.g., Eggs">
+
+    <label for="quantity">Quantity</label>
+    <input id="quantity" type="number" placeholder="1">
+
+    <button type="submit">Add Item</button>
+  </form>
+</section>
+
+<section class="list-section">
+  <h2>Your Grocery List</h2>
+
+  <button id="load-items">Load All Items</button>
+
+  <ul id="grocery-list"></ul>
+</section>
+
+<footer>
+  © 2024 Grocery List App — CS408 Final Project
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
